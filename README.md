@@ -33,7 +33,7 @@ EOF  help  quit
 (hbnb) quit
 $
 ```
-## Non-Interactive Mode
+### Non-Interactive Mode
 ```bash
 
 $ echo "help" | ./console.py
@@ -83,21 +83,21 @@ To create an object, use the format `create <class_name>`:
 ```bash
 (hbnb) create BaseModel
 ```
-# Show
+## Show
 
 To show an instance based on the class name and id, use:
 
 ```bash
 (hbnb) show BaseModel 1234-1234-1234.
 ```
-# Destroy
+## Destroy
 
 To delete an instance of an object, use:
 
 ```bash
 (hbnb) destroy BaseModel 1234-1234-1234.
 ```
-# All
+## All
 
 To show all instances or all instances of a specific type, use:
 
@@ -106,15 +106,15 @@ To show all instances or all instances of a specific type, use:
 (hbnb) all State
 ```
 
-# Update
+## Update
 
 To update an instance based on the class name and id, use:
 
 ```bash
-(hbnb) update BaseModel 1234-1234-1234 email "aniyokwizerwajeanpaulelisa@gmail.com"
+(hbnb) update BaseModel 1234-1234-1234 email "niyokwizerwajeanpaulelisa@gmail.com"
 ```
 
-# Quit
+## Quit
 
 To exit the console, use:
 
@@ -122,7 +122,7 @@ To exit the console, use:
 (hbnb) quit
 ```
 
-# Help
+## Help
 
 To get help on commands, use:
 
